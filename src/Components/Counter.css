@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    width: 500px;
+    background-color: rgb(229, 227, 234);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+h1{
+    margin: 20px;
+    color: rgb(55, 103, 105);
+}
+
+p{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0 100px;
+    font-size: larger;
+    background-color: black;
+    color: white;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+button{
+    padding: 15px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(78, 134, 136);
+    color: white;
+    transition:  ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(46, 105, 107);
+}
